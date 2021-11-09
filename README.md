@@ -2,7 +2,7 @@
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
-
+visit the application here :- https://intense-cliffs-99497.herokuapp.com/
 Things you may want to cover:
 
 * Ruby version :-2.6.8
