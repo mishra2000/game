@@ -69,12 +69,19 @@ function showWinner(player,c1,c2,c3,freezeCols)
   else
     player=2
   document.getElementById("result").innerHTML="Player "+player+" is the winner"
-  c1.style="background:green"
-  c2.style="background:green"
-  c3.style="background:green"
 
-  for(i=0;i<freezeCols.length;i++)
+
+  for(i=0;i<freezeCols.length;i++){
     freezeCols[i].style="pointer-events:none"
+    console.log(freezeCols[i].innerHTML)
+  }
+
+  // c1.style="background:green"
+  // c2.style="background:green"
+  // c3.style="background:green"
+  c1.style.cssText="background:green;pointer-events:none"
+  c2.style.cssText="background:green;pointer-events:none"
+  c3.style.cssText="background:green;pointer-events:none"
 }
 function resetGame()
 {
